@@ -1,1 +1,1302 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<title>紡ぎプロジェクト</title>
+
+<!-- Fav Icon -->
+<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+<!-- Stylesheets -->
+<link href="assets/css/font-awesome-all.css" rel="stylesheet">
+<link href="assets/css/flaticon.css" rel="stylesheet">
+<link href="assets/css/owl.css" rel="stylesheet">
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+<link href="assets/css/animate.css" rel="stylesheet">
+<link href="assets/css/nice-select.css" rel="stylesheet">
+<link href="assets/css/jquery-ui.css" rel="stylesheet">
+<link href="assets/css/jquery.bootstrap-touchspin.css" rel="stylesheet">
+<link href="assets/css/color.css" rel="stylesheet">
+<link href="assets/css/elpath.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/responsive.css" rel="stylesheet">
+
+</head>
+
+
+<!-- page wrapper -->
+<body>
+
+    <div class="boxed_wrapper">
+
+
+        <!-- preloader -->
+        <!-- <div class="loader-wrap">
+            <div class="preloader">
+                <div class="preloader-close">x</div>
+                <div id="handle-preloader" class="handle-preloader">
+                    <div class="animation-preloader">
+                        <div class="spinner"></div>
+                        <div class="txt-loading">
+                            <span data-text-preloader="t" class="letters-loading">
+                                t
+                            </span>
+                            <span data-text-preloader="r" class="letters-loading">
+                                r
+                            </span>
+                            <span data-text-preloader="u" class="letters-loading">
+                                u
+                            </span>
+                            <span data-text-preloader="s" class="letters-loading">
+                                s
+                            </span>
+                            <span data-text-preloader="t" class="letters-loading">
+                                t
+                            </span>
+                            <span data-text-preloader="h" class="letters-loading">
+                                h
+                            </span>
+                            <span data-text-preloader="a" class="letters-loading">
+                                a
+                            </span>
+                            <span data-text-preloader="n" class="letters-loading">
+                                n
+                            </span>
+                            <span data-text-preloader="d" class="letters-loading">
+                                d
+                            </span>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div> -->
+        <!-- preloader end -->
+
+
+        <!--Search Popup-->
+        <!-- 
+        <div id="search-popup" class="search-popup">
+            <div class="popup-inner">
+                <div class="upper-box clearfix">
+                    <figure class="logo-box pull-left"><a href="index.html"><img src="assets/images/logo-2.png" alt=""></a></figure>
+                    <div class="close-search pull-right"><span class="far fa-times"></span></div>
+                </div>
+                <div class="overlay-layer"></div>
+                <div class="auto-container">
+                    <div class="search-form">
+                        <form method="post" action="index.html">
+                            <div class="form-group">
+                                <fieldset>
+                                    <input type="search" class="form-control" name="search-input" value="" placeholder="Type your keyword and hit" required >
+                                    <button type="submit"><i class="far fa-search"></i></button>
+                                </fieldset>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        -->
+
+
+        <!-- donate popup -->
+        <!-- 
+        <div id="donate-popup" class="donate-popup">
+            <div class="close-donate"><i class="fal fa-times"></i></div>
+            <div class="popup-inner">
+                <div class="donate-content">
+                    <div class="title-text centred">
+                        <h2>Donate Your Amount</h2>
+                    </div>
+                    <form action="index.html" method="post" class="default-form">
+                        <div class="row clearfix">
+                            <div class="col-lg-6 col-md-12 col-sm-12 donate-column">
+                                <div class="donate-box">
+                                    <div class="donate-option">
+                                        <h3>How Much?</h3>
+                                        <ul class="donate-list clearfix">
+                                            <li>
+                                                <input type="radio" id="donate-amount-1" name="donate-amount" checked="checked" />
+                                                <label for="donate-amount-1" data-amount="1000" >$10</label>
+                                            </li>
+                                            <li>
+                                                <input type="radio" id="donate-amount-2" name="donate-amount" />
+                                                <label for="donate-amount-2" data-amount="2000">$20</label>
+                                            </li>
+                                            <li>
+                                                <input type="radio" id="donate-amount-3" name="donate-amount" />
+                                                <label for="donate-amount-3" data-amount="3000">$50</label>
+                                            </li>
+                                            <li>
+                                                <input type="radio" id="donate-amount-4" name="donate-amount" />
+                                                <label for="donate-amount-4" data-amount="4000">$100</label>
+                                            </li>
+                                            <li>
+                                                <input type="radio" id="donate-amount-5" name="donate-amount" />
+                                                <label for="donate-amount-5" data-amount="5000">$500</label>
+                                            </li>
+                                            <li>
+                                                <input type="radio" id="donate-amount-6" name="donate-amount" />
+                                                <label for="donate-amount-6" data-amount="5000">$1000</label>
+                                            </li>
+                                        </ul>
+                                        <div class="other-amount">
+                                            <div class="text">
+                                                <h4>Like to Donate</h4>
+                                                <p>Enter your custom amount</p>
+                                            </div>
+                                            <div class="amount-box">
+                                                <div class="item-quantity"><input class="quantity-spinner" type="text" value="600" name="quantity"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="payment-option">
+                                        <h3>Choose Payment Option</h3>
+                                        <ul class="payment-list clearfix">
+                                            <li>
+                                                <input type="radio" id="payment-method-1" name="payment-method" checked="checked" />
+                                                <label for="payment-method-1" >Net Banking</label>
+                                            </li>
+                                            <li>
+                                                <input type="radio" id="payment-method-2" name="payment-method" />
+                                                <label for="payment-method-2">Credit - Debit Card</label>
+                                            </li>
+                                            <li>
+                                                <input type="radio" id="payment-method-3" name="payment-method" />
+                                                <label for="payment-method-3">Offline Payment</label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 donate-form">
+                                <div class="form-inner">
+                                    <h3>Donar Information</h3>
+                                    <div class="row clearfix">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 column">
+                                            <div class="form-group">
+                                                <label>Your Name <span>*</span></label>
+                                                <input type="text" name="name" placeholder="example name" required="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 column">
+                                            <div class="form-group">
+                                                <label>Email Address <span>*</span></label>
+                                                <input type="email" name="email" required="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 column">
+                                            <div class="form-group">
+                                                <label>Phone</label>
+                                                <input type="text" name="phone" required="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 column">
+                                            <div class="form-group">
+                                                <label>Address</label>
+                                                <input type="text" name="address" required="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 column">
+                                            <div class="form-group message-btn">
+                                                <button type="submit" class="theme-btn-one">Donate Now</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 column">
+                                            <div class="form-group">
+                                                <label class="custom-control material-checkbox">
+                                                    <input type="checkbox" class="material-control-input">
+                                                    <span class="material-control-indicator"></span>
+                                                    <span class="description">I would like to donate automatically repeat each month</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div> 
+        -->
+        <!-- donate popup -->
+
+
+        <!-- sidebar cart item -->
+        <!-- 
+        <div class="xs-sidebar-group info-group info-sidebar">
+            <div class="xs-overlay xs-bg-black"></div>
+            <div class="xs-sidebar-widget">
+                <div class="sidebar-widget-container">
+                    <div class="widget-heading">
+                        <a href="index-2.html" class="close-side-widget"><i class="icon-close"></i></a>
+                    </div>
+                    <div class="sidebar-textwidget">
+                    <div class="sidebar-info-contents">
+                        <div class="content-inner">
+                            <div class="logo">
+                                <a href="index.html"><img src="assets/images/logo-2.png" alt="" /></a>
+                            </div>
+                            <div class="content-box">
+                                <h4>About Us</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam laboris.</p>
+                            </div>
+                            <div class="form-inner">
+                                <h4>Get a free quote</h4>
+                                <form action="index.html" method="post">
+                                    <div class="form-group">
+                                        <input type="text" name="name" placeholder="Name" required="">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="email" placeholder="Email" required="">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea name="message" placeholder="Message..."></textarea>
+                                    </div>
+                                    <div class="form-group message-btn">
+                                        <button class="theme-btn-one">Submit Now</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        -->
+        <!-- sidebar widget item end -->
+
+
+        <!-- main header -->
+        <header class="main-header">
+            <!-- header-lower -->
+            <div class="header-lower">
+                <div class="outer-box">
+                    <div class="logo-box">
+                        <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+                    </div>
+                    <div class="menu-area clearfix">
+                        <!--Mobile Navigation Toggler-->
+                        <div class="mobile-nav-toggler">
+                            <i class="icon-bar"></i>
+                            <i class="icon-bar"></i>
+                            <i class="icon-bar"></i>
+                        </div>
+                        <nav class="main-menu navbar-expand-md navbar-light">
+                            <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                <ul class="navigation clearfix">
+                                    <li>
+                                        <a href="#about-tsumugi" class="jp-font">紡ぎプロジェクトとは</a>
+                                    </li>
+                                    <li><a href="#current-situation" class="jp-font">子供達の現状</a>
+                                    </li>  
+                                    <li>
+                                        <a href="#merit" class="jp-font">支援のメリット</a>
+                                    <li>
+                                        <a href="#about-joycom" class="jp-font">JOYCOMとは</a>
+                                    </li>  
+                                    <li>
+                                        <a href="#contact" class="jp-font">お問い合わせ</a></li> 
+                                </ul>
+                            </div>
+                        </nav>
+                        <ul class="nav-right">
+                            <li class="search-box-outer search-toggler">
+                                <i class="icon-1"></i>
+                            </li>
+                            <li class="btn-box">
+                                <!-- <button class="donate-box-btn theme-btn-one"><span>Donate Now</span></button> -->
+                                <button class="donate-box-btn theme-btn-one">
+                                    <a style="color: white;" href="https://forms.office.com/pages/responsepage.aspx?id=9W2mYrUeBU-QzkGUYWyk0Dt7UNPVWzdOmYSAiwlqzihUQjdTTzZOTEhSN1JSNFpBWVFCWTQxM040NC4u&origin=lprLink&route=shorturl&idchked=true">
+                                        <!-- <span>Donate Now</span> -->
+                                        <span class="jp-font">ご寄付をする</span>
+                                    </a>
+                                </button>
+                            </li>
+                            <li class="nav-btn nav-toggler navSidebar-button clearfix">
+                                <i class="icon-3"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--sticky Header-->
+            <div class="sticky-header">
+                <div class="outer-container">
+                    <div class="outer-box">
+                        <div class="logo-box">
+                            <figure class="logo"><a href="index.html"><img src="assets/images/logo-2.png" alt=""></a></figure>
+                        </div>
+                        <div class="menu-area clearfix">
+                            <nav class="main-menu clearfix">
+                                <!--Keep This Empty / Menu will come through Javascript-->
+                            </nav>
+                            <ul class="nav-right">
+                                <li class="search-box-outer search-toggler">
+                                    <i class="icon-1"></i>
+                                </li>
+                                <li class="btn-box">
+                                    <button class="donate-box-btn theme-btn-one"><span>ご寄付をする</span></button>
+                                </li>
+                                <li class="nav-btn nav-toggler navSidebar-button clearfix">
+                                    <i class="icon-3"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main-header end -->
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-3.png" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+                <!-- 
+                <div class="contact-info">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>Chicago 12, Melborne City, USA</li>
+                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
+                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                    </ul>
+                </div> 
+                -->
+                <!--
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                    </ul>
+                </div> 
+                -->
+            </nav>
+        </div><!-- End Mobile Menu -->
+
+
+        <!-- banner-section -->
+        <section class="banner-section p_relative">
+            <div class="banner-carousel owl-theme owl-carousel owl-nav-none">
+
+                <div class="slide-item p_relative">
+                    <div class="image-layer p_absolute" style="background-image:url(assets/images/banner/banner-1.jpg)"></div>
+                    <div class="shape-1"></div>
+                    <div class="shape-2"></div>
+                    <div class="auto-container">
+                        <div class="content-box p_relative d_block z_5">
+                            <span class="special-text special_fonts p_relative d_block jp-font-2">子供の世界を変えよう</span>
+                            <h2 class="p_relative d_block jp-font">
+                                ”こどもたちの
+                                <br>
+                                お腹だけなく、
+                                <br>
+                                心も満たすこと
+                                <br>
+                                ができる!!”</h2>
+                            <p class="p_relative d_block jp-font-2">テキストはテキスト、テキストテキストテキスト。</p>
+                            <!-- <div class="btn-box">
+                                <a href="index.html" class="theme-btn-one"><span>Discover More</span></a>
+                            </div> -->
+                        </div> 
+                    </div>
+                </div>
+                <div class="slide-item p_relative">
+                    <div class="image-layer p_absolute" style="background-image:url(assets/images/banner/banner-2.jpg)"></div>
+                    <div class="shape-1"></div>
+                    <div class="shape-2"></div>
+                    <div class="auto-container">
+                        <div class="content-box p_relative d_block z_5">
+                            <span class="special-text special_fonts p_relative d_block jp-font-2">子供の世界を変えよう</span>
+                            <h2 class="p_relative d_block jp-font">
+                                ”こどもたちの
+                                <br>
+                                お腹だけなく、
+                                <br>
+                                心も満たすこと
+                                <br>
+                                ができる!!”</h2>
+                            <p class="p_relative d_block jp-font-2">テキストはテキスト、テキストテキストテキスト。</p>
+                            <!-- <div class="btn-box">
+                                <a href="index.html" class="theme-btn-one"><span>Discover More</span></a>
+                            </div> -->
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="slide-item p_relative">
+                    <div class="image-layer p_absolute" style="background-image:url(assets/images/banner/banner-1.jpg)"></div>
+                    <div class="shape-1"></div>
+                    <div class="shape-2"></div>
+                    <div class="auto-container">
+                        <div class="content-box p_relative d_block z_5">
+                            <span class="special-text special_fonts p_relative d_block jp-font-2">子供の世界を変えよう</span>
+                            <h2 class="p_relative d_block jp-font">
+                                ”こどもたちの
+                                <br>
+                                お腹だけなく、
+                                <br>
+                                心も満たすこと
+                                <br>
+                                ができる!!”</h2>
+                            <p class="p_relative d_block jp-font-2">テキストはテキスト、テキストテキストテキスト。</p>
+                            <!-- <div class="btn-box">
+                                <a href="index.html" class="theme-btn-one"><span>Discover More</span></a>
+                            </div> -->
+                        </div> 
+                    </div>
+                </div>
+                <div class="slide-item p_relative">
+                    <div class="image-layer p_absolute" style="background-image:url(assets/images/banner/banner-2.jpg)"></div>
+                    <div class="shape-1"></div>
+                    <div class="shape-2"></div>
+                    <div class="auto-container">
+                        <div class="content-box p_relative d_block z_5">
+                            <span class="special-text special_fonts p_relative d_block jp-font-2">子供の世界を変えよう</span>
+                            <h2 class="p_relative d_block jp-font">
+                                ”こどもたちの
+                                <br>
+                                お腹だけなく、
+                                <br>
+                                心も満たすこと
+                                <br>
+                                ができる!!”</h2>
+                            <p class="p_relative d_block jp-font-2">テキストはテキスト、テキストテキストテキスト。</p>
+                            <!-- <div class="btn-box">
+                                <a href="index.html" class="theme-btn-one"><span>Discover More</span></a>
+                            </div> -->
+                        </div> 
+                    </div>
+                </div>
+                
+                
+            </div>
+        </section>
+        <!-- banner-section end -->
+
+
+        <!-- feature-section -->
+        <!-- <section class="feature-section p_relative sec-pad centred">
+            <div class="auto-container">
+                <div class="sec-title centred mb_50">
+                    <span class="sub-title">Features</span>
+                    <h2>Education Make a Life for <br />Poor Children!</h2>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
+                        <div class="feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <div class="icon-box"><img src="assets/images/icons/icon-1.png" alt=""></div>
+                                <h3><a href="index.html">Become A Volunteer</a></h3>
+                                <p>Amet minim mollit no deserunt ulamco sit enim aliqua dolor sint Velit officia.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
+                        <div class="feature-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <div class="icon-box"><img src="assets/images/icons/icon-2.png" alt=""></div>
+                                <h3><a href="index.html">Send Us Donations</a></h3>
+                                <p>Amet minim mollit no deserunt ulamco sit enim aliqua dolor sint Velit officia.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
+                        <div class="feature-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <div class="icon-box"><img src="assets/images/icons/icon-3.png" alt=""></div>
+                                <h3><a href="index.html">Get Support Directly</a></h3>
+                                <p>Amet minim mollit no deserunt ulamco sit enim aliqua dolor sint Velit officia.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- feature-section end -->
+
+
+        <!-- about-section -->
+        <section class="about-section bg-color-1 p_relative sec-pad" id="about-tsumugi">
+            <div class="auto-container">
+                <div class="row align-items-center clearfix">
+                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                        <div class="content_block_one">
+                            <div class="content-box p_relative mr_30">
+                                <div class="sec-title mb_40">
+                                    <span class="sub-title">About Tsumugi Project</span>
+                                    <h2 class="jp-font">紡ぎプロジェクトとは</h2>
+                                </div>
+                                <div class="text mb_35">
+                                    <p class="jp-font-2">
+                                        『紡ぎプロジェクト』は、協力してくださる飲食店と共に、子どもたちが毎日食事を取れる場所を作りたいと考えています。
+                                        <br>
+                                        <br>
+                                        他支援もあるのですが、個人情報の提示を求める場合があるため利用に抵抗を感じる方もいらっしゃいます。そこで、小中学生の子どもたちが誰でも利用できる仕組みを考えました。QRコード付きのカードを配布し、来店時に提示する事で無料で食事を食べることができ、データ集計する事でさらなる支援に繋げることができるシステムや、アプリを通じて協力店で利用できるクーポンを配布したり、支援を募り、資金を集めるためのシステムを構築する予定です。
+                                        <br>
+                                        <br>
+                                        地域の支えが、子どもたちにとって頼れる場所にもなります。本プロジェクトは、単に食事を届けるだけでなく、（子どもたちが簡単なお手伝いを通してお仕事を体験することで食事が無料で提供される）見守りを必要とする子どもたちが地域でより多くの人と繫がり合う事が出来ます。食を支援することは、家計、学習など様々な波及効果を生みます。そして、こどもたちのお腹だけなく、心も満たすことができると思います。
+                                    </p>
+                                </div>
+                                <!-- <div class="inner mb_45">
+                                    <div class="row clearfix">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 single-column">
+                                            <div class="single-item">
+                                                <div class="upper">
+                                                    <div class="icon-box"><i class="icon-4"></i></div>
+                                                    <h3>Quick Fundraising</h3>
+                                                </div>
+                                                <p>Amet minim mollit no deserunt ulamco sit enim.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 single-column">
+                                            <div class="single-item">
+                                                <div class="upper">
+                                                    <div class="icon-box"><i class="icon-5"></i></div>
+                                                    <h3>Join our Team</h3>
+                                                </div>
+                                                <p>Amet minim mollit no deserunt ulamco sit enim.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="btn-box">
+                                    <a href="contact.html" class="theme-btn-one">Contact Us</a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                        <div class="image_block_one">
+                            <div class="image-box p_relative d_block ml_40">
+                                <div class="shape">
+                                    <div class="shape-1" style="background-image: url(assets/images/shape/shape-1.png);"></div>
+                                    <div class="shape-2" style="background-image: url(assets/images/shape/shape-1.png);"></div>
+                                    <div class="shape-3"></div>
+                                </div>
+                                <figure class="image image-1"><img src="assets/images/resource/about-1.png" alt=""></figure>
+                                <figure class="image image-2"><img src="assets/images/resource/about-2.png" alt=""></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about-section end -->
+
+
+        <!-- funfact-section -->
+        <section class="funfact-section pt_80 pb_80 bg-color-2">
+            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-2.png);"></div>
+            <div class="auto-container">
+                <div class="inner-container">
+                    <div class="funfact-block-one">
+                        <div class="inner-box">
+                            <div class="count-outer count-box">
+                                <!-- <span class="count-text" data-speed="1500" data-stop="29">0</span> -->
+                            </div>
+                            <h3 class="jp-font">食事</h3>
+                            <p style="color: white;" class="jp-font-2">腹がぺこぺこの時に、近くで気軽に食事できます</p>
+                        </div>
+                    </div>
+                    <div class="funfact-block-one">
+                        <div class="inner-box">
+                            <div class="count-outer count-box">
+                                <!-- <span class="count-text" data-speed="1500" data-stop="3">0</span><span>k</span> -->
+                            </div>
+                            <h3 class="jp-font">コミュニティー</h3>
+                            <p style="color: white;" class="jp-font-2">子供から保護者まで、絆を作る場所があります</p>
+                        </div>
+                    </div>
+                    <div class="funfact-block-one">
+                        <div class="inner-box">
+                            <div class="count-outer count-box">
+                                <!-- <span class="count-text" data-speed="1500" data-stop="8">0</span><span>k</span> -->
+                            </div>
+                            <h3 class="jp-font">仕事の体験</h3>
+                            <p style="color: white;" class="jp-font-2">子供達が仕事体験ができます</p>
+                        </div>
+                    </div>
+                    <!-- <div class="funfact-block-one">
+                        <div class="inner-box">
+                            <div class="count-outer count-box">
+                                <span class="count-text" data-speed="1500" data-stop="10">0</span><span>k</span>
+                            </div>
+                            <h3>Total <br />Campaigns</h3>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- funfact-section end -->
+
+
+        <!-- cause-section -->
+        <section class="cause-section sec-pad" id="current-situation">
+            <div class="shape">
+                <div class="shape-1" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                <div class="shape-2" style="background-image: url(assets/images/shape/shape-4.png);"></div>
+            </div>
+            <div class="auto-container">
+                <div class="sec-title centred mb_50">
+                    <span class="sub-title">The Current Situation of Children</span>
+                    <h2 class="jp-font">子供達の現状</h2>
+                </div>
+                <div class="row clearfix" style="justify-content: center;">
+                    <div class="col-lg-6 col-md-6 col-sm-12 cause-block">
+                        <div class="cause-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <div class="inner-box" style="border: 1px solid #e5e5e5;">
+                                <div class="lower-content" style="border: none;">
+                                    <div class="text">
+                                        <!-- <h3><a href="causes-details.html">Promoting <br />The Rights of Children</a></h3> -->
+                                        <p class="jp-font-2">
+                                            子どもの貧困は深刻な社会問題となっています。なぜなら、貧困が健康問題や教育格差、虐待、自殺などのさまざまな問題の原因とされているからです。
+                                            <br>
+                                            <br>
+                                            子どもの貧困を放置することが経済的にも大きな影響を及ぼすことが明らかになっています。子どもの貧困を放置すると所得が42.9兆円、財政収入が15.9兆円失われると試算されました。例えば、15歳の子ども達のわずか1学年をとっても、経済損失は約2.9兆円に達し、さらに政府の財政負担は1.1兆円増えると推計されています。つまり4兆円もの損失なのです。（2015年日本財団調べ）（最新のものを現在調査中）
+                                            <br>
+                                            <br>
+                                            子どもの貧困は国をあげて取り組むべき課題で、子どもの貧困問題に対して何もしないと将来的に社会における支え手が減少し、一方で社会の支えを必要とする人が増加するため、生活保護などの支出が増加し、最終的には社会全体がそのコストを負担しなければならなくなります。このようなことからも子どもの貧困対策は日本の社会全体において非常に意義のある取り組みなのです。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- cause-section end -->
+
+
+        <!-- featured-causes -->
+        <section class="featured-causes" id="merit">
+            <div class="auto-container">
+                <div class="sec-title mb_50">
+                    <span class="sub-title">What We Can Do With Your Help</span>
+                    <h2 class="jp-font">あなたの支援で出来ること</h2>
+                </div>
+                <div class="two-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
+                    <div class="single-item">
+                        <div class="inner-box" style="background-image: url(assets/images/resource/feature-1.jpg);">
+                            <div class="text">
+                                <span style="color: white; font-size: 36px; font-weight: bold; margin-bottom: 40px;" class="jp-font">子供達</span>
+                                <h3 style="color: white; font-size: 18px;"　class="jp-font-2">
+                                    <ul>
+                                        <li>
+                                            •　自宅の近くにあり、こどもだけでも行ける
+                                        </li>
+                                        <li>
+                                            •　無料で食べることができる
+                                        </li>
+                                        <li>
+                                            •　お店や料理を選ぶことができる
+                                        </li>
+                                        <li>
+                                            •　すべてのこどもたちにカードを配布し、すべてのこどもたちが利用できるようにすることで、
+                                            この仕組みを利用するこどもが貧困家庭のこどもと思われたりしない( いじめ等に繋がらない)、
+                                            また保護者等から｢うちが貧乏だと思われるから利用するな！｣等言われることを防ぐことができる
+                                        </li>
+                                    </ul>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-item">
+                        <div class="inner-box" style="background-image: url(assets/images/resource/feature-1.jpg);">
+                            <div class="text">
+                                <span style="color: white; font-size: 36px; font-weight: bold; margin-bottom: 40px;" class="jp-font">飲食店の方</span>
+                                <h3 style="color: white; font-size: 18px;"　class="jp-font-2">
+                                    <ul>
+                                        <li>
+                                            •　自宅の近くにあり、こどもだけでも行ける
+                                        </li>
+                                        <li>
+                                            •　無料で食べることができる
+                                        </li>
+                                        <li>
+                                            •　お店や料理を選ぶことができる
+                                        </li>
+                                    </ul>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="single-item">
+                        <div class="inner-box" style="background-image: url(assets/images/resource/feature-1.jpg);">
+                            <div class="text">
+                                <span style="color: white; font-size: 36px; font-weight: bold; margin-bottom: 40px;" class="jp-font">寄付で応援くださる方</span>
+                                <h3 style="color: white; font-size: 18px;"　class="jp-font-2">
+                                    <ul>
+                                        <li>
+                                            •　自宅の近くにあり、こどもだけでも行ける
+                                        </li>
+                                        <li>
+                                            •　無料で食べることができる
+                                        </li>
+                                        <li>
+                                            •　お店や料理を選ぶことができる
+                                        </li>
+                                        <li>
+                                            •　すべてのこどもたちにカードを配布し、すべてのこどもたちが利用できるようにすることで、
+                                            この仕組みを利用するこどもが貧困家庭のこどもと思われたりしない( いじめ等に繋がらない)、
+                                            また保護者等から｢うちが貧乏だと思われるから利用するな！｣等言われることを防ぐことができる
+                                        </li>
+                                    </ul>
+                                </h3>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="single-item">
+                        <div class="inner-box" style="background-image: url(assets/images/resource/feature-1.jpg);">
+                            <div class="text">
+                                <span style="color: white; font-size: 36px; font-weight: bold; margin-bottom: 40px;" class="jp-font">行政</span>
+                                <h3 style="color: white; font-size: 18px;"　class="jp-font-2">
+                                    <ul>
+                                        <li>
+                                            •　自宅の近くにあり、こどもだけでも行ける
+                                        </li>
+                                        <li>
+                                            •　無料で食べることができる
+                                        </li>
+                                        <li>
+                                            •　お店や料理を選ぶことができる
+                                        </li>
+                                        <li>
+                                            •　すべてのこどもたちにカードを配布し、すべてのこどもたちが利用できるようにすることで、
+                                            この仕組みを利用するこどもが貧困家庭のこどもと思われたりしない( いじめ等に繋がらない)、
+                                            また保護者等から｢うちが貧乏だと思われるから利用するな！｣等言われることを防ぐことができる
+                                        </li>
+                                    </ul>
+                                </h3>
+                            </div>
+                        </div>
+                    </div> -->
+
+
+
+
+
+                    <!-- 
+                    <div class="single-item">
+                        <div class="inner-box" style="background-image: url(assets/images/resource/feature-2.jpg);">
+                            <div class="text">
+                                <span>Help Children</span>
+                                <h3>Join The Community <br />For Education</h3>
+                                <button class="donate-box-btn theme-btn-one">Donate Now</button>
+                            </div>
+                        </div>
+                    </div> 
+                    -->
+                </div>
+            </div>
+        </section>
+        <!-- featured-causes end -->
+
+
+        <!-- service-section -->
+        <section class="service-section sec-pad bg-color-1 centred" id="about-joycom">
+            <div class="auto-container">
+                <div class="sec-title centred mb_50">
+                    <span class="sub-title">About JOYCOM</span>
+                    <h2 class="jp-font">JOYCOMとは</h2>
+                </div>
+                <div class="row clearfix" style="justify-content: center;">
+                    <div class="col-lg-6 col-md-6 col-sm-12 service-block">
+                        <div class="service-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <!-- 
+                                <div class="icon-box">
+                                    <div class="icon-bg" style="background-image: url(assets/images/icons/icon-bg-1.png);"></div>
+                                    <div class="icon"><i class="icon-8"></i></div>
+                                </div> 
+                                -->
+                                <img src="https://joycom.or.jp/wp/wp-content/themes/joycom/asset/img/about/pic_about_logo.png" alt="" style="width: 150px; margin-bottom: 40px;">
+                                <!-- 
+                                <h3><a href="index.html">タイトル</a></h3>
+                                -->
+                                <p style="text-align: left; padding: 0 30px;" class="jp-font-2">
+                                    JOYCOMは、Joyfull+Communicationを掛け合わせてつくった言葉です。人と人との「コミュニケーション」を「喜び」にできる場所をつくりたい、という願いを込めてつけました。私がコミュニケーションの大切さを改めて感じたのは、保育の勉強をしていた学生時代のころ。人は食事でどんなに栄養を摂取していても、愛情やぬくもり、コミュニケーションがなければ生きていけないと知りました。
+                                    <br>
+                                    <br>
+                                    人と関わることが喜びになり、喜びは笑顔に、そして幸せへとつながります。例えば、障がいをもつ方の世界をもっと広げられる場所。ご高齢の方が健康に笑顔で過ごせる場所。子どもたちがのびのびと過ごせる場所。そんな「生きる喜び」を感じてもらえるような場所をつくっていくことが、私たちの大きな夢であり、願いでもあります。
+                                    <br>
+                                    <br>
+                                    <a href="https://joycom.or.jp/" style="color: var(--main-color);">https://joycom.or.jp/</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- service-section end -->
+
+
+        <!-- project-section -->
+        <section class="project-section">
+            <div class="outer-container">
+                <div class="project-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
+                    <div class="project-block-one">
+                        <div class="inner-box">
+                            <figure class="image-box"><img src="assets/images/gallery/gallery-1.jpg" alt="" style="filter: grayscale(100%);"></figure>
+                        </div>
+                    </div>
+                    <div class="project-block-one">
+                        <div class="inner-box">
+                            <figure class="image-box"><img src="assets/images/gallery/gallery-2.jpg" alt="" style="filter: grayscale(100%);"></figure>
+                        </div>
+                    </div>
+                    <div class="project-block-one">
+                        <div class="inner-box">
+                            <figure class="image-box"><img src="assets/images/gallery/gallery-3.jpg" alt="" style="filter: grayscale(100%);"></figure>
+                        </div>
+                    </div>
+                    <div class="project-block-one">
+                        <div class="inner-box">
+                            <figure class="image-box"><img src="assets/images/gallery/gallery-4.jpg" alt="" style="filter: grayscale(100%);"></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- project-section end -->
+
+
+        <!-- team-section -->
+        <section class="team-section sec-pad centred">
+            <div class="auto-container">
+                <div class="sec-title centred mb_50">
+                    <span class="sub-title">Greetings from the Represenative</span>
+                    <h2 class="jp-font">代表からの挨拶</h2>
+                </div>
+                <div class="row clearfix" style="justify-content: center;">
+                    <div class="col-lg-6 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <div class="image-box" style="z-index: 10;">
+                                    <figure class="image">
+                                        <img src="assets/images/team/team-1.png" alt="" style="width: 200px;">
+                                    </figure>
+                                </div>
+                                <div class="lower-content" style="margin-top: -220px;">
+                                    <div class="inner" style="padding-top: 130px;">
+                                        <h3 class="jp-font"><a href="team-details.html">岡田亜紀</a></h3>
+                                        <span class="designation jp-font-2">理事長</span>
+                                        <p style="text-align: left;">
+                                            JOYCOMは、Joyfull+Communicationを掛け合わせてつくった言葉です。人と人との「コミュニケーション」を「喜び」にできる場所をつくりたい、という願いを込めてつけました。私がコミュニケーションの大切さを改めて感じたのは、保育の勉強をしていた学生時代のころ。人は食事でどんなに栄養を摂取していても、愛情やぬくもり、コミュニケーションがなければ生きていけないと知りました。
+                                            <br>
+                                            <br>
+                                            人と関わることが喜びになり、喜びは笑顔に、そして幸せへとつながります。例えば、障がいをもつ方の世界をもっと広げられる場所。ご高齢の方が健康に笑顔で過ごせる場所。子どもたちがのびのびと過ごせる場所。そんな「生きる喜び」を感じてもらえるような場所をつくっていくことが、私たちの大きな夢であり、願いでもあります。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- team-section end -->
+
+
+        <!-- testimonial-section -->
+        <section class="testimonial-section">
+            <div class="bg-layer" style="background-image: url(assets/images/background/testimonial-bg.jpg);"></div>
+            <div class="outer-container clearfix">
+                <div class="testimonial-content">
+                    <div class="shape" style="background-image: url(assets/images/shape/shape-5.png);"></div>
+                    <div class="content-box">
+                        <div class="sec-title light mb_50">
+                            <div class="sub-title">Testimonials</div>
+                            <h2 class="jp-font">サポーターさんからの声</h2>
+                        </div>
+                        <div class="bxslider">
+
+                            <div class="slider-content">
+                                <div class="slider-pager">
+                                    <ul class="thumb-box">
+                                        <li>
+                                            <a class="active" data-slide-index="0" href="#">
+                                                <figure class="thumb thumb-1"><img src="assets/images/resource/testimonial-1.jpg" alt=""></figure>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a data-slide-index="1" href="#">
+                                                <figure class="thumb thumb-2"><img src="assets/images/resource/testimonial-2.jpg" alt=""></figure>
+                                            </a>                                       
+                                        </li>
+                                        <li>
+                                            <a data-slide-index="2" href="#">
+                                                <figure class="thumb thumb-3"><img src="assets/images/resource/testimonial-3.jpg" alt=""></figure>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="testimonial-inner">
+                                    <!-- <ul class="rating-box clearfix">
+                                        <li><i class="icon-13"></i></li>
+                                        <li><i class="icon-13"></i></li>
+                                        <li><i class="icon-13"></i></li>
+                                        <li><i class="icon-13"></i></li>
+                                        <li><i class="icon-14"></i></li>
+                                    </ul> -->
+                                    <p class="jp-font-2">
+                                        子供達の笑顔で癒されます。日本の将来を見守りたいです。
+                                        <br>
+                                        <br>
+                                        子供達の笑顔で癒されます。日本の将来を見守りたいです。子供達の笑顔で癒されます。日本の将来を見守りたいです。
+                                    </p>
+                                    <div class="author-info">
+                                        <h3 class="jp-font-2">西村松子氏</h3>
+                                        <span class="designation" class="jp-font-2">作家</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slider-content">
+                                <div class="slider-pager">
+                                    <ul class="thumb-box">
+                                        <li>
+                                            <a class="active" data-slide-index="0" href="#">
+                                                <figure class="thumb thumb-1"><img src="assets/images/resource/testimonial-1.jpg" alt=""></figure>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a data-slide-index="1" href="#">
+                                                <figure class="thumb thumb-2"><img src="assets/images/resource/testimonial-2.jpg" alt=""></figure>
+                                            </a>                                       
+                                        </li>
+                                        <li>
+                                            <a data-slide-index="2" href="#">
+                                                <figure class="thumb thumb-3"><img src="assets/images/resource/testimonial-3.jpg" alt=""></figure>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="testimonial-inner">
+                                    <!-- <ul class="rating-box clearfix">
+                                        <li><i class="icon-13"></i></li>
+                                        <li><i class="icon-13"></i></li>
+                                        <li><i class="icon-13"></i></li>
+                                        <li><i class="icon-13"></i></li>
+                                        <li><i class="icon-14"></i></li>
+                                    </ul> -->
+                                    <p class="jp-font-2">
+                                        子供達の笑顔で癒されます。日本の将来を見守りたいです。子供達の笑顔で癒されます。日本の将来を見守りたいです。
+                                        <br>
+                                        <br>
+                                        子供達の笑顔で癒されます。日本の将来を見守りたいです。
+                                    </p>
+                                    <div class="author-info">
+                                        <h3 class="jp-font-2">田中辰雄氏</h3>
+                                        <span class="designation" class="jp-font-2">政治家</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slider-content">
+                                <div class="slider-pager">
+                                    <ul class="thumb-box">
+                                        <li>
+                                            <a class="active" data-slide-index="0" href="#">
+                                                <figure class="thumb thumb-1"><img src="assets/images/resource/testimonial-1.jpg" alt=""></figure>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a data-slide-index="1" href="#">
+                                                <figure class="thumb thumb-2"><img src="assets/images/resource/testimonial-2.jpg" alt=""></figure>
+                                            </a>                                       
+                                        </li>
+                                        <li>
+                                            <a data-slide-index="2" href="#">
+                                                <figure class="thumb thumb-3"><img src="assets/images/resource/testimonial-3.jpg" alt=""></figure>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="testimonial-inner">
+                                    <!-- <ul class="rating-box clearfix">
+                                        <li><i class="icon-13"></i></li>
+                                        <li><i class="icon-13"></i></li>
+                                        <li><i class="icon-13"></i></li>
+                                        <li><i class="icon-13"></i></li>
+                                        <li><i class="icon-14"></i></li>
+                                    </ul> -->
+                                    <p class="jp-font-2">
+                                        子供達の笑顔で癒されます。日本の将来を見守りたいです。
+                                        <br>
+                                        <br>
+                                        子供達の笑顔で癒されます。日本の将来を見守りたいです子供達の笑顔で癒されます。日本の将来を見守りたいです。日本の将来を見守りたいです。
+                                    </p>
+                                    <div class="author-info">
+                                        <h3 class="jp-font-2">内田高尾氏</h3>
+                                        <span class="designation" class="jp-font-2">CEO</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial-section end -->
+
+
+        <!-- clients-section -->
+        <section class="clients-section">
+            <div class="auto-container">
+                <div class="five-item-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
+                    <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-1.png" alt=""></a></figure>
+                    <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-2.png" alt=""></a></figure>
+                    <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-3.png" alt=""></a></figure>
+                    <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-4.png" alt=""></a></figure>
+                    <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-5.png" alt=""></a></figure>
+                </div>
+            </div>
+        </section>
+        <!-- clients-section end -->
+
+
+        <!-- news-section -->
+        <section class="news-section sec-pad">
+            <div class="auto-container">
+                <div class="sec-title centred mb_55">
+                    <span class="sub-title">Understand the Tsumugi Project in 3 Minutes</span>
+                    <h2 class="jp-font">3分で分かる紡ぎプロジェクト</h2>
+                </div>
+                <!-- 
+                <div class="row clearfix" style="justify-content: center;">
+                    <div class="col-lg-8 col-md-8 col-sm-12 news-block">
+                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <div class="lower-content p_relative d_block">
+                                    <div class="text">
+                                        <h3 class="jp-font"><a href="blog-details.html">紡ぎプロジェクトの説明動画</a></h3>
+                                        <p class="jp-font-2">ぜひご覧ください。</p>
+                                        <video width="100%" controls>    
+                                            <source src="assets/video/video.mp4" type="video/mp4">
+                                          Your browser does not support the video tag.
+                                          </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                -->
+                <div class="row clearfix" style="justify-content: center;">
+                    <div class="col-lg-8 col-md-8 col-sm-12 news-block">
+                        <video width="100%" controls>    
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- news-section end -->
+
+
+        <!-- cause-section -->
+        <section class="cause-section sec-pad" id="contact">
+            <!-- <div class="shape">
+                <div class="shape-1" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+                <div class="shape-2" style="background-image: url(assets/images/shape/shape-4.png);"></div>
+            </div> -->
+            <div class="auto-container">
+                <div class="sec-title centred mb_50">
+                    <span class="sub-title">Donation</span>
+                    <h2 class="jp-font">ご寄付</h2>
+                </div>
+                <div class="row clearfix" style="justify-content: center;">
+                    <div class="col-lg-6 col-md-6 col-sm-12 cause-block" style="text-align: center;">
+                        <div class="cause-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <li class="btn-box">
+                                <button class="donate-box-btn theme-btn-one">
+                                    <a style="color: white;" href="https://forms.office.com/pages/responsepage.aspx?id=9W2mYrUeBU-QzkGUYWyk0Dt7UNPVWzdOmYSAiwlqzihUQjdTTzZOTEhSN1JSNFpBWVFCWTQxM040NC4u&origin=lprLink&route=shorturl&idchked=true">
+                                        <span class="jp-font">ご寄付をする</span>
+                                    </a>
+                                </button>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="auto-container" style="margin-top: 50px;">
+                <div class="sec-title centred mb_50">
+                    <span class="sub-title">Contact</span>
+                    <h2 class="jp-font">お問い合わせ</h2>
+                </div>
+                <div class="row clearfix" style="justify-content: center;">
+                    <div class="col-lg-6 col-md-6 col-sm-12 cause-block" style="text-align: center;">
+                        <div class="cause-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <li class="btn-box">
+                                <button class="donate-box-btn theme-btn-one" style="color: var(--main-color) !important; border: 2px solid var(--main-color); background: none;">
+                                    <a style="color: var(--main-color);" href="https://forms.office.com/pages/responsepage.aspx?id=9W2mYrUeBU-QzkGUYWyk0Dt7UNPVWzdOmYSAiwlqzihUQjdTTzZOTEhSN1JSNFpBWVFCWTQxM040NC4u&origin=lprLink&route=shorturl&idchked=true">
+                                        <span>お問い合わせ</span>
+                                    </a>
+                                </button>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- cause-section end -->
+
+
+        <!-- main-footer -->
+        <footer class="main-footer">
+            <div class="auto-container">
+                <div class="footer-top" style="justify-content: center;">
+                    <figure class="footer-logo"><a href="index.html"><img src="assets/images/logo-3.png" alt=""></a></figure>
+                    <!--
+                    <ul class="social-links">
+                        <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
+                    </ul> 
+                    -->
+                </div>
+
+                <!-- 
+                <div class="widget-section">
+                    <div class="row clearfix">
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="about-widget footer-widget">
+                                <div class="widget-title">
+                                    <h3>About</h3>
+                                </div>
+                                <div class="text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elitsollicit udin netus quis ornare. Massa pharetra in nec sed nunc.</p>
+                                    <p>nisl viverra massa imperdiet. Dui mattis quis congue fames.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="links-widget footer-widget ml_50">
+                                <div class="widget-title">
+                                    <h3>Quick Link</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="links-list clearfix">
+                                        <li><a href="index.html">About Us</a></li>
+                                        <li><a href="index.html">Services</a></li>
+                                        <li><a href="index.html">Case</a></li>
+                                        <li><a href="index.html">Pricing</a></li>
+                                        <li><a href="index.html">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="links-widget footer-widget ml_30">
+                                <div class="widget-title">
+                                    <h3>Usefull Links</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="links-list clearfix">
+                                        <li><a href="index.html">Privacy Policy</a></li>
+                                        <li><a href="index.html">Terms & Condition</a></li>
+                                        <li><a href="index.html">Support</a></li>
+                                        <li><a href="index.html">Disclaimer</a></li>
+                                        <li><a href="index.html">Faq</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="contact-widget footer-widget ml_30">
+                                <div class="widget-title">
+                                    <h3>Contact</h3>
+                                </div>
+                                <div class="widget-content">
+                                    <p>Tincidunt neque pretium lectus donec risus.</p>
+                                    <ul class="info-list clearfix">
+                                        <li><i class="icon-17"></i>New Hyde Park, NY 11040</li>
+                                        <li><i class="icon-18"></i><a href="mailto:example@info.com">example@info.com</a></li>
+                                        <li><i class="icon-19"></i><a href="tel:3336660000">333 666 0000</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                -->
+
+                <div class="footer-bottom centred">
+                    <div class="copyright">
+                        <p>Copyright © 2025 Tsumugi Project. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- main-footer end -->
+
+
+
+        <!--Scroll to top-->
+        <div class="scroll-to-top">
+            <div>
+                <div class="scroll-top-inner">
+                    <div class="scroll-bar">
+                        <div class="bar-inner"></div>
+                    </div>
+                    <div class="scroll-bar-text jp-font-2">TOPへ戻る</div>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll to top end -->
+        
+    </div>
+
+
+    <!-- jequery plugins -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/validation.js"></script>
+    <script src="assets/js/jquery.fancybox.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/scrollbar.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/parallax-scroll.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/nav-tool.js"></script>
+    <script src="assets/js/jquery.bootstrap-touchspin.js"></script>
+    <script src="assets/js/bxslider.js"></script>
+
+    <!-- main-js -->
+    <script src="assets/js/script.js"></script>
+
+</body><!-- End of .page_wrapper -->
+</html>
