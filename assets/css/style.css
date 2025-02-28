@@ -3147,7 +3147,7 @@ div#mCSB_1_container{
   width: 320px;
   height: 320px;
   border-radius: 50%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .team-block-one .inner-box .image-box .image img{
@@ -3157,7 +3157,7 @@ div#mCSB_1_container{
 }
 
 .team-block-one .inner-box:hover .image-box .image img{
-  opacity: 0.5;
+  /* opacity: 0.5; */
   transform: scale(1.05);
 }
 
