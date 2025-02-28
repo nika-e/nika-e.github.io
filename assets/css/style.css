@@ -3244,7 +3244,15 @@ div#mCSB_1_container{
 }
 
 
-
+/* Add illustration to Testimonial Section on Mobile */
+.testimonial-section .bg-layer-2 {
+  display: block;
+}
+@media (min-width: 992px) {
+  .testimonial-section .bg-layer-2 {
+    display: none;
+  } 
+}
 
 
 .testimonial-section .testimonial-content{
