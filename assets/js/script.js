@@ -665,16 +665,16 @@
 	}
 
 
-	if ($('.testimonial-section .bxslider').length) {
-		$('.testimonial-section .bxslider').bxSlider({
-	        nextText: '<i class="fal fa-angle-right"></i>',
-	        prevText: '<i class="fal fa-angle-left"></i>',
-	        mode: 'fade',
-	        auto: 'true',
-	        speed: '700',
-	        pagerCustom: '.testimonial-section .slider-pager .thumb-box'
-	    });
-	};
+	// if ($('.testimonial-section .bxslider').length) {
+	// 	$('.testimonial-section .bxslider').bxSlider({
+	//         nextText: '<i class="fal fa-angle-right"></i>',
+	//         prevText: '<i class="fal fa-angle-left"></i>',
+	//         mode: 'fade',
+	//         auto: 'true',
+	//         speed: '700',
+	//         pagerCustom: '.testimonial-section .slider-pager .thumb-box'
+	//     });
+	// };
 
     
 
