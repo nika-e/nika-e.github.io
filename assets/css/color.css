@@ -137,9 +137,9 @@
 	/* background: var(--original-color); */ background-color: var(--secondary-color);
 }
 
-.clients-section{
+/* .clients-section{
 	background: var(--original-color-3);
-}
+} */
 
 .news-block-one .inner-box .image-box{
 	background: var(--original-color-3);

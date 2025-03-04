@@ -3383,9 +3383,13 @@ div#mCSB_1_container{
 
 /** clients-section **/
 
-.clients-section{
+.clients-section {
   position: relative;
   padding: 55px 0px;
+}
+
+.clients-section img {
+  width: 191px;
 }
 
 .clients-section .clients-logo{
@@ -5080,6 +5084,10 @@ div#mCSB_1_container{
 .cause-style-two .cause-block-one .inner-box .btn-box .theme-btn-two{
   width: 100%;
   padding: 13px 35px 11px 33px;
+}
+
+.news-section {
+  background: #f8f8f8;
 }
 
 .news-section.home-3 .news-block-one .inner-box{
