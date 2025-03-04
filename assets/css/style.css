@@ -8350,3 +8350,18 @@ div#mCSB_1_container{
 /* * {
   border: 1px solid black;
 } */
+
+#strengths {
+  background: var(--secondary-color);
+}
+
+#strengths p {
+  color: white;
+  font-weight: 600;
+}
+
+#strengths img {
+  max-width: 100px;
+  margin-bottom: 25px;
+}
+
