@@ -908,3 +908,15 @@
 
 
 }
+
+/* EXTRA */
+
+@media (max-width: 500px) {
+  .team-block-one .inner-box .image-box .image img {
+    width: 150px;
+  }
+  .team-block-one .inner-box .lower-content .inner {
+    padding-top: 100px;
+  }
+}
+
