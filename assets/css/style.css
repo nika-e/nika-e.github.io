@@ -2866,8 +2866,9 @@ div#mCSB_1_container{
   height: 100%;
   left: 0px;
   top: 0px;
-  /* background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 84.37%);*/
-  background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 150%);
+  /* background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 84.37%); */
+  /* background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 150%); */
+  background: rgba(0, 0, 0, .3)    
 }
 
 
