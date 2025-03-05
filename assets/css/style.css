@@ -2286,11 +2286,12 @@ div#mCSB_1_container{
 }
 
 .banner-carousel .content-box h2{
-  font-size: 65px;
+  /* font-size: 65px; */
+  font-size: 55px;
   line-height: 70px;
   font-weight: 700;
   color: #fff;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   letter-spacing: 0.05em;
   opacity: 0;
   -webkit-transform: translateY(50px);

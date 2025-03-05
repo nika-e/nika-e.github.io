@@ -475,7 +475,8 @@
   }
 
   .banner-carousel .content-box h2{
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 30px;
     line-height: 50px;
   }
 
