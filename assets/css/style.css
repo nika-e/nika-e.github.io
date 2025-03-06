@@ -8372,3 +8372,7 @@ div#mCSB_1_container{
 .team-block-one .inner-box .lower-content .inner {
   padding-top: 130px;
 }
+
+* {
+  border: 1px solid black;
+}
