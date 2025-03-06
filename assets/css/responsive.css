@@ -931,16 +931,25 @@
   .clients-section .supporters-smartphone a {
     padding: 20px;
   }
+  .clients-section .supporters-smartphone .logo-no-link {
+    padding: 20px;
+  }
 }
 
 @media (max-width: 500px) {
   .clients-section .supporters-smartphone a {
     width: 50%;
   }
+  .clients-section .supporters-smartphone .logo-no-link {
+    width: 50%;
+  }
 }
 
 @media (min-width: 501px) and (max-width: 700px) {
   .clients-section .supporters-smartphone a {
+    width: 33.33333333333333%
+  }
+  .clients-section .supporters-smartphone .logo-no-link {
     width: 33.33333333333333%
   }
 }
