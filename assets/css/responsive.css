@@ -484,6 +484,10 @@
     padding: 74px 0px 70px 0px;
   }
 
+  .featured-causes.sec-pad {
+    padding: 74px 0px 20px 0px;
+  }
+
   .sec-title h2 br{
     display: none;
   }
@@ -509,7 +513,7 @@
     padding: 70px 0px;
   }
 
-  .cause-section,
+  /* .cause-section, */
   .service-section,
   .team-section,
   .news-section{
